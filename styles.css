@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image: url("/assets/images/background-pattern-desktop.svg");
+    background-image: url("assets/images/background-pattern-desktop.svg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: rgb(238, 201, 207);
