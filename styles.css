@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url("/assets/images/background-pattern-desktop.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(238, 201, 207);
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    grid-template-rows: auto ;
+    row-gap: 5px;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    max-width: 45%;
+    margin: 4% auto 1.5%;
+    border-radius: 3.5%;
+}
+hr{
+    grid-column: span 2;
+    width: 100%;
+    margin: 8px 0;
+    border: 0.5px solid #eae4e4;
+    opacity: 0.5;
+}
+
+.footer {
+     font-size: 11px; text-align: center; 
+     color: hsl(0, 0%, 100%);
+    }
+button{
+    margin-left: 45%;
+    background-color: hsl(300, 77%, 47%);
+    border: none;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    color: white;
+
+}
+
+span{
+    color: hsl(300, 77%, 47%);
+    margin-right: 15px;
+}
+.button-minus{
+    margin-left: 45%;
+    background-color: hsl(300, 8%, 3%);
+    border: none;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.hidden{
+    display: none;
+}
+
+@media (max-width: 926px){
+    .grid-container{
+        max-width: 80%;
+    }
+    
+}
+@media (max-width: 558px){
+    .grid-container{
+        max-width: 90%;
+
+    }
+   
+}
